@@ -1,1 +1,1 @@
-# vaultwarden
+# vaultwarden distroless & rootless
