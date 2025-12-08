@@ -1,4 +1,4 @@
-FROM vaultwarden/server:testing-alpine AS src
+FROM ghcr.io/dani-garcia/vaultwarden:testing-alpine AS src
 
 FROM alpine:latest AS tz
 RUN apk add --no-cache tzdata
