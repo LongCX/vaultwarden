@@ -21,7 +21,7 @@ ENV ROCKET_PROFILE="release" \
 
 EXPOSE 8080
 
-HEALTHCHECK --interval=15s --timeout=2s --start-period=5s \
+HEALTHCHECK --interval=120s --timeout=2s --start-period=5s \
   CMD ["/usr/local/bin/localhealth", "http://127.0.0.1:8080/alive"]
 
 USER 65532:65532
